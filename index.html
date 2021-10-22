@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-mobile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="wrapper">
+      <div class="box main">
+        <div class="intro">
+          <img src="./images/image-jeremy.png" alt="">
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <ul class="list">
+          <li id="Daily">Daily</li>
+          <li id="weekly">Weekly</li>
+          <li id="monthly">Monthly</li>
+        </ul>
+      </div>
+
+      <div class="nested">
+        <div class="box first">
+          <div class="black-box">
+            <h5 class="word">Work</h5>
+            
+            <div class="time">
+              <h1 id="work-hours">5hrs</h1>
+              <p id="work-previous">Yesterday - 7hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box second">
+          <div class="black-box">
+            <h5 class="word">Play</h5>
+            
+            <div class="time">
+              <h1 id="play-hours">1hrs</h1>
+              <p id="play-previous">Yesterday - 2hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box third">
+          <div class="black-box">
+             <h5 class="word">Study</h5>
+            
+            <div class="time">
+              <h1 id="study-hours">0hrs</h1>
+              <p id="study-previous">Yesterday - 1hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box fourth">
+          <div class="black-box">
+            <h5 class="word">Exercise</h5>
+            
+            <div class="time">
+              <h1 id="ex-hours">1hrs</h1>
+              <p id="ex-previous">Yesterday - 1hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box fifth">
+          <div class="black-box">
+            <h5 class="word">Social</h5>
+            
+            <div class="time">
+              <h1 id="social-hours">1hrs</h1>
+              <p id="social-previous">Yesterday - 3hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box sixth">
+          <div class="black-box">
+            <h5 class="word">Self Care</h5>
+
+            <div class="time">
+              <h1 id="sc-hours">0hrs</h1>
+              <p id="sc-previous">Yesterday - 1hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

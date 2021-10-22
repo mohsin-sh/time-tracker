@@ -1,0 +1,106 @@
+@media screen and (max-width: 600px){
+    section{
+        margin-top: 20px;
+    }
+    .wrapper{
+        display: block;
+    }
+    .main{
+        height: 200px;
+    }
+    .nested{
+        display: block;
+    }
+    .box{
+        width: 90vw;
+    }
+    .black-box{
+        margin-top: 1.3em;
+    }
+    .black-box{
+        position: relative;
+        top: 45px;
+        height: 70%;
+    }
+
+    .intro img{
+        width: 80px;
+        height: 80px;
+        border: 3px white solid;
+    }
+    .intro{
+        display: flex;
+    }
+    .intro div{
+        padding: 20px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list li{
+        font-size: 18px;
+    }
+    .time{
+        top: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 30px 0 30px;
+    }
+    .time p{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .time h1{
+        font-size: 28px;
+    }
+    .word{
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+
+
+    .attribution{
+        display: none;
+    }
+    .first{
+        background-image: url('./images/icon-work.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+    
+    .second{
+        background-image: url('./images/icon-play.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+    
+    .third{
+        background-image: url('./images/icon-study.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+    
+    .fourth{
+        background-image: url('./images/icon-exercise.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+    
+    .fifth{
+        background-image: url('./images/icon-social.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+    
+    .sixth{
+        background-image: url('./images/icon-self-care.svg');
+        background-size: 80px;
+        background-position: right top;
+    }
+        
+}
